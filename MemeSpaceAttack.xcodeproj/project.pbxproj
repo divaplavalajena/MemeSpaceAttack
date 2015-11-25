@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA2098CA1C053E560011A85F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2098C91C053E560011A85F /* AppDelegate.swift */; };
+		DA2098CC1C053E560011A85F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA2098CB1C053E560011A85F /* GameScene.sks */; };
+		DA2098CE1C053E560011A85F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2098CD1C053E560011A85F /* GameScene.swift */; };
+		DA2098D01C053E560011A85F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2098CF1C053E560011A85F /* GameViewController.swift */; };
+		DA2098D21C053E560011A85F /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2098D11C053E560011A85F /* Game.xcassets */; };
+		DA2098D51C053E560011A85F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2098D31C053E560011A85F /* Main.storyboard */; };
+		DA2098D71C053E560011A85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2098D61C053E560011A85F /* Assets.xcassets */; };
+		DA2098E21C053E570011A85F /* MemeSpaceAttackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2098E11C053E570011A85F /* MemeSpaceAttackTests.swift */; };
+		DA2098ED1C053E570011A85F /* MemeSpaceAttackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2098EC1C053E570011A85F /* MemeSpaceAttackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA2098DE1C053E570011A85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA2098BE1C053E560011A85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2098C51C053E560011A85F;
+			remoteInfo = MemeSpaceAttack;
+		};
+		DA2098E91C053E570011A85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA2098BE1C053E560011A85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2098C51C053E560011A85F;
+			remoteInfo = MemeSpaceAttack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA2098C61C053E560011A85F /* MemeSpaceAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSpaceAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2098C91C053E560011A85F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA2098CB1C053E560011A85F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DA2098CD1C053E560011A85F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DA2098CF1C053E560011A85F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DA2098D11C053E560011A85F /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		DA2098D41C053E560011A85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA2098D61C053E560011A85F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA2098D81C053E560011A85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2098DD1C053E570011A85F /* MemeSpaceAttackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeSpaceAttackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2098E11C053E570011A85F /* MemeSpaceAttackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeSpaceAttackTests.swift; sourceTree = "<group>"; };
+		DA2098E31C053E570011A85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2098E81C053E570011A85F /* MemeSpaceAttackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeSpaceAttackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2098EC1C053E570011A85F /* MemeSpaceAttackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeSpaceAttackUITests.swift; sourceTree = "<group>"; };
+		DA2098EE1C053E570011A85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA2098C31C053E560011A85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2098DA1C053E570011A85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2098E51C053E570011A85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA2098BD1C053E560011A85F = {
+			isa = PBXGroup;
+			children = (
+				DA2098C81C053E560011A85F /* MemeSpaceAttack */,
+				DA2098E01C053E570011A85F /* MemeSpaceAttackTests */,
+				DA2098EB1C053E570011A85F /* MemeSpaceAttackUITests */,
+				DA2098C71C053E560011A85F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA2098C71C053E560011A85F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA2098C61C053E560011A85F /* MemeSpaceAttack.app */,
+				DA2098DD1C053E570011A85F /* MemeSpaceAttackTests.xctest */,
+				DA2098E81C053E570011A85F /* MemeSpaceAttackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA2098C81C053E560011A85F /* MemeSpaceAttack */ = {
+			isa = PBXGroup;
+			children = (
+				DA2098C91C053E560011A85F /* AppDelegate.swift */,
+				DA2098CB1C053E560011A85F /* GameScene.sks */,
+				DA2098CD1C053E560011A85F /* GameScene.swift */,
+				DA2098CF1C053E560011A85F /* GameViewController.swift */,
+				DA2098D11C053E560011A85F /* Game.xcassets */,
+				DA2098D31C053E560011A85F /* Main.storyboard */,
+				DA2098D61C053E560011A85F /* Assets.xcassets */,
+				DA2098D81C053E560011A85F /* Info.plist */,
+			);
+			path = MemeSpaceAttack;
+			sourceTree = "<group>";
+		};
+		DA2098E01C053E570011A85F /* MemeSpaceAttackTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA2098E11C053E570011A85F /* MemeSpaceAttackTests.swift */,
+				DA2098E31C053E570011A85F /* Info.plist */,
+			);
+			path = MemeSpaceAttackTests;
+			sourceTree = "<group>";
+		};
+		DA2098EB1C053E570011A85F /* MemeSpaceAttackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA2098EC1C053E570011A85F /* MemeSpaceAttackUITests.swift */,
+				DA2098EE1C053E570011A85F /* Info.plist */,
+			);
+			path = MemeSpaceAttackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA2098C51C053E560011A85F /* MemeSpaceAttack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2098F11C053E570011A85F /* Build configuration list for PBXNativeTarget "MemeSpaceAttack" */;
+			buildPhases = (
+				DA2098C21C053E560011A85F /* Sources */,
+				DA2098C31C053E560011A85F /* Frameworks */,
+				DA2098C41C053E560011A85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemeSpaceAttack;
+			productName = MemeSpaceAttack;
+			productReference = DA2098C61C053E560011A85F /* MemeSpaceAttack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA2098DC1C053E570011A85F /* MemeSpaceAttackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2098F41C053E570011A85F /* Build configuration list for PBXNativeTarget "MemeSpaceAttackTests" */;
+			buildPhases = (
+				DA2098D91C053E570011A85F /* Sources */,
+				DA2098DA1C053E570011A85F /* Frameworks */,
+				DA2098DB1C053E570011A85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA2098DF1C053E570011A85F /* PBXTargetDependency */,
+			);
+			name = MemeSpaceAttackTests;
+			productName = MemeSpaceAttackTests;
+			productReference = DA2098DD1C053E570011A85F /* MemeSpaceAttackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA2098E71C053E570011A85F /* MemeSpaceAttackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2098F71C053E570011A85F /* Build configuration list for PBXNativeTarget "MemeSpaceAttackUITests" */;
+			buildPhases = (
+				DA2098E41C053E570011A85F /* Sources */,
+				DA2098E51C053E570011A85F /* Frameworks */,
+				DA2098E61C053E570011A85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA2098EA1C053E570011A85F /* PBXTargetDependency */,
+			);
+			name = MemeSpaceAttackUITests;
+			productName = MemeSpaceAttackUITests;
+			productReference = DA2098E81C053E570011A85F /* MemeSpaceAttackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA2098BE1C053E560011A85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Matthew Waller";
+				TargetAttributes = {
+					DA2098C51C053E560011A85F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DA2098DC1C053E570011A85F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DA2098C51C053E560011A85F;
+					};
+					DA2098E71C053E570011A85F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DA2098C51C053E560011A85F;
+					};
+				};
+			};
+			buildConfigurationList = DA2098C11C053E560011A85F /* Build configuration list for PBXProject "MemeSpaceAttack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA2098BD1C053E560011A85F;
+			productRefGroup = DA2098C71C053E560011A85F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA2098C51C053E560011A85F /* MemeSpaceAttack */,
+				DA2098DC1C053E570011A85F /* MemeSpaceAttackTests */,
+				DA2098E71C053E570011A85F /* MemeSpaceAttackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA2098C41C053E560011A85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2098D51C053E560011A85F /* Main.storyboard in Resources */,
+				DA2098CC1C053E560011A85F /* GameScene.sks in Resources */,
+				DA2098D71C053E560011A85F /* Assets.xcassets in Resources */,
+				DA2098D21C053E560011A85F /* Game.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2098DB1C053E570011A85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2098E61C053E570011A85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA2098C21C053E560011A85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2098CE1C053E560011A85F /* GameScene.swift in Sources */,
+				DA2098D01C053E560011A85F /* GameViewController.swift in Sources */,
+				DA2098CA1C053E560011A85F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2098D91C053E570011A85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2098E21C053E570011A85F /* MemeSpaceAttackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2098E41C053E570011A85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2098ED1C053E570011A85F /* MemeSpaceAttackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA2098DF1C053E570011A85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2098C51C053E560011A85F /* MemeSpaceAttack */;
+			targetProxy = DA2098DE1C053E570011A85F /* PBXContainerItemProxy */;
+		};
+		DA2098EA1C053E570011A85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2098C51C053E560011A85F /* MemeSpaceAttack */;
+			targetProxy = DA2098E91C053E570011A85F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA2098D31C053E560011A85F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2098D41C053E560011A85F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA2098EF1C053E570011A85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		DA2098F01C053E570011A85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA2098F21C053E570011A85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MemeSpaceAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MWaller.MemeSpaceAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA2098F31C053E570011A85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MemeSpaceAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MWaller.MemeSpaceAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA2098F51C053E570011A85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MemeSpaceAttackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MWaller.MemeSpaceAttackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeSpaceAttack.app/MemeSpaceAttack";
+			};
+			name = Debug;
+		};
+		DA2098F61C053E570011A85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MemeSpaceAttackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MWaller.MemeSpaceAttackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeSpaceAttack.app/MemeSpaceAttack";
+			};
+			name = Release;
+		};
+		DA2098F81C053E570011A85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MemeSpaceAttackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MWaller.MemeSpaceAttackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MemeSpaceAttack;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA2098F91C053E570011A85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MemeSpaceAttackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MWaller.MemeSpaceAttackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MemeSpaceAttack;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA2098C11C053E560011A85F /* Build configuration list for PBXProject "MemeSpaceAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2098EF1C053E570011A85F /* Debug */,
+				DA2098F01C053E570011A85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2098F11C053E570011A85F /* Build configuration list for PBXNativeTarget "MemeSpaceAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2098F21C053E570011A85F /* Debug */,
+				DA2098F31C053E570011A85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA2098F41C053E570011A85F /* Build configuration list for PBXNativeTarget "MemeSpaceAttackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2098F51C053E570011A85F /* Debug */,
+				DA2098F61C053E570011A85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA2098F71C053E570011A85F /* Build configuration list for PBXNativeTarget "MemeSpaceAttackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2098F81C053E570011A85F /* Debug */,
+				DA2098F91C053E570011A85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA2098BE1C053E560011A85F /* Project object */;
+}
