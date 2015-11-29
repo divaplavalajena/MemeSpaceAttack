@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DA2098CA1C053E560011A85F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2098C91C053E560011A85F /* AppDelegate.swift */; };
-		DA2098CC1C053E560011A85F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA2098CB1C053E560011A85F /* GameScene.sks */; };
 		DA2098CE1C053E560011A85F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2098CD1C053E560011A85F /* GameScene.swift */; };
 		DA2098D01C053E560011A85F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2098CF1C053E560011A85F /* GameViewController.swift */; };
 		DA2098D21C053E560011A85F /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2098D11C053E560011A85F /* Game.xcassets */; };
@@ -16,6 +15,40 @@
 		DA2098D71C053E560011A85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2098D61C053E560011A85F /* Assets.xcassets */; };
 		DA2098E21C053E570011A85F /* MemeSpaceAttackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2098E11C053E570011A85F /* MemeSpaceAttackTests.swift */; };
 		DA2098ED1C053E570011A85F /* MemeSpaceAttackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2098EC1C053E570011A85F /* MemeSpaceAttackUITests.swift */; };
+		DA2099031C0545560011A85F /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2099021C0545560011A85F /* GameOverScene.swift */; };
+		DA2099071C0547A30011A85F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2099061C0547A30011A85F /* MenuViewController.swift */; };
+		DA2099091C054A140011A85F /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA2099081C054A140011A85F /* GameOverScene.sks */; };
+		DA20990B1C054A5D0011A85F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA20990A1C054A5D0011A85F /* GameScene.sks */; };
+		DA20991A1C054D380011A85F /* InvaderBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA2099161C054D380011A85F /* InvaderBullet.wav */; };
+		DA20991B1C054D380011A85F /* InvaderHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA2099171C054D380011A85F /* InvaderHit.wav */; };
+		DA20991C1C054D380011A85F /* ShipBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA2099181C054D380011A85F /* ShipBullet.wav */; };
+		DA20991D1C054D380011A85F /* ShipHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA2099191C054D380011A85F /* ShipHit.wav */; };
+		DA2099321C054D6A0011A85F /* InvaderA_00.png in Resources */ = {isa = PBXBuildFile; fileRef = DA20991E1C054D6A0011A85F /* InvaderA_00.png */; };
+		DA2099331C054D6A0011A85F /* InvaderA_00@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA20991F1C054D6A0011A85F /* InvaderA_00@2x.png */; };
+		DA2099341C054D6A0011A85F /* InvaderA_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099201C054D6A0011A85F /* InvaderA_01.png */; };
+		DA2099351C054D6A0011A85F /* InvaderA_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099211C054D6A0011A85F /* InvaderA_01@2x.png */; };
+		DA2099361C054D6A0011A85F /* InvaderB_00.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099221C054D6A0011A85F /* InvaderB_00.png */; };
+		DA2099371C054D6A0011A85F /* InvaderB_00@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099231C054D6A0011A85F /* InvaderB_00@2x.png */; };
+		DA2099381C054D6A0011A85F /* InvaderB_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099241C054D6A0011A85F /* InvaderB_01.png */; };
+		DA2099391C054D6A0011A85F /* InvaderB_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099251C054D6A0011A85F /* InvaderB_01@2x.png */; };
+		DA20993A1C054D6A0011A85F /* InvaderC_00.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099261C054D6A0011A85F /* InvaderC_00.png */; };
+		DA20993B1C054D6A0011A85F /* InvaderC_00@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099271C054D6A0011A85F /* InvaderC_00@2x.png */; };
+		DA20993C1C054D6A0011A85F /* InvaderC_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099281C054D6A0011A85F /* InvaderC_01.png */; };
+		DA20993D1C054D6A0011A85F /* InvaderC_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099291C054D6A0011A85F /* InvaderC_01@2x.png */; };
+		DA20993E1C054D6A0011A85F /* LaserSharkA_00.png in Resources */ = {isa = PBXBuildFile; fileRef = DA20992A1C054D6A0011A85F /* LaserSharkA_00.png */; };
+		DA20993F1C054D6A0011A85F /* LaserSharkA_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA20992B1C054D6A0011A85F /* LaserSharkA_01.png */; };
+		DA2099401C054D6A0011A85F /* LaserSharkB_00.png in Resources */ = {isa = PBXBuildFile; fileRef = DA20992C1C054D6A0011A85F /* LaserSharkB_00.png */; };
+		DA2099411C054D6A0011A85F /* LaserSharkB_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA20992D1C054D6A0011A85F /* LaserSharkB_01.png */; };
+		DA2099421C054D6A0011A85F /* LaserSharkC_00.png in Resources */ = {isa = PBXBuildFile; fileRef = DA20992E1C054D6A0011A85F /* LaserSharkC_00.png */; };
+		DA2099431C054D6A0011A85F /* LaserSharkC_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA20992F1C054D6A0011A85F /* LaserSharkC_01.png */; };
+		DA2099441C054D6A0011A85F /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099301C054D6A0011A85F /* Ship.png */; };
+		DA2099451C054D6A0011A85F /* Ship@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099311C054D6A0011A85F /* Ship@2x.png */; };
+		DA20994A1C054DF80011A85F /* Sound Effects in Resources */ = {isa = PBXBuildFile; fileRef = DA2099481C054DF80011A85F /* Sound Effects */; };
+		DA20994B1C054DF80011A85F /* Sprite Images in Resources */ = {isa = PBXBuildFile; fileRef = DA2099491C054DF80011A85F /* Sprite Images */; };
+		DA2099531C055E6B0011A85F /* SpaceBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2099521C055E6B0011A85F /* SpaceBackground.png */; };
+		DAC8DF291C0B94240075CFD0 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC8DF281C0B94240075CFD0 /* star.png */; };
+		DAF01C081C065C4E00291B94 /* BlueBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF01C071C065C4E00291B94 /* BlueBackGround.png */; };
+		DAF01C0A1C068A2D00291B94 /* SpaceAttack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF01C091C068A2D00291B94 /* SpaceAttack.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +71,6 @@
 /* Begin PBXFileReference section */
 		DA2098C61C053E560011A85F /* MemeSpaceAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSpaceAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2098C91C053E560011A85F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA2098CB1C053E560011A85F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		DA2098CD1C053E560011A85F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		DA2098CF1C053E560011A85F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		DA2098D11C053E560011A85F /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
@@ -51,6 +83,40 @@
 		DA2098E81C053E570011A85F /* MemeSpaceAttackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeSpaceAttackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2098EC1C053E570011A85F /* MemeSpaceAttackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeSpaceAttackUITests.swift; sourceTree = "<group>"; };
 		DA2098EE1C053E570011A85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2099021C0545560011A85F /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		DA2099061C0547A30011A85F /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DA2099081C054A140011A85F /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		DA20990A1C054A5D0011A85F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DA2099161C054D380011A85F /* InvaderBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = InvaderBullet.wav; path = "MemeSpaceAttack/Sound Effects/InvaderBullet.wav"; sourceTree = "<group>"; };
+		DA2099171C054D380011A85F /* InvaderHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = InvaderHit.wav; path = "MemeSpaceAttack/Sound Effects/InvaderHit.wav"; sourceTree = "<group>"; };
+		DA2099181C054D380011A85F /* ShipBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ShipBullet.wav; path = "MemeSpaceAttack/Sound Effects/ShipBullet.wav"; sourceTree = "<group>"; };
+		DA2099191C054D380011A85F /* ShipHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ShipHit.wav; path = "MemeSpaceAttack/Sound Effects/ShipHit.wav"; sourceTree = "<group>"; };
+		DA20991E1C054D6A0011A85F /* InvaderA_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InvaderA_00.png; path = "MemeSpaceAttack/Sprite Images/InvaderA_00.png"; sourceTree = "<group>"; };
+		DA20991F1C054D6A0011A85F /* InvaderA_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "InvaderA_00@2x.png"; path = "MemeSpaceAttack/Sprite Images/InvaderA_00@2x.png"; sourceTree = "<group>"; };
+		DA2099201C054D6A0011A85F /* InvaderA_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InvaderA_01.png; path = "MemeSpaceAttack/Sprite Images/InvaderA_01.png"; sourceTree = "<group>"; };
+		DA2099211C054D6A0011A85F /* InvaderA_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "InvaderA_01@2x.png"; path = "MemeSpaceAttack/Sprite Images/InvaderA_01@2x.png"; sourceTree = "<group>"; };
+		DA2099221C054D6A0011A85F /* InvaderB_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InvaderB_00.png; path = "MemeSpaceAttack/Sprite Images/InvaderB_00.png"; sourceTree = "<group>"; };
+		DA2099231C054D6A0011A85F /* InvaderB_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "InvaderB_00@2x.png"; path = "MemeSpaceAttack/Sprite Images/InvaderB_00@2x.png"; sourceTree = "<group>"; };
+		DA2099241C054D6A0011A85F /* InvaderB_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InvaderB_01.png; path = "MemeSpaceAttack/Sprite Images/InvaderB_01.png"; sourceTree = "<group>"; };
+		DA2099251C054D6A0011A85F /* InvaderB_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "InvaderB_01@2x.png"; path = "MemeSpaceAttack/Sprite Images/InvaderB_01@2x.png"; sourceTree = "<group>"; };
+		DA2099261C054D6A0011A85F /* InvaderC_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InvaderC_00.png; path = "MemeSpaceAttack/Sprite Images/InvaderC_00.png"; sourceTree = "<group>"; };
+		DA2099271C054D6A0011A85F /* InvaderC_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "InvaderC_00@2x.png"; path = "MemeSpaceAttack/Sprite Images/InvaderC_00@2x.png"; sourceTree = "<group>"; };
+		DA2099281C054D6A0011A85F /* InvaderC_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InvaderC_01.png; path = "MemeSpaceAttack/Sprite Images/InvaderC_01.png"; sourceTree = "<group>"; };
+		DA2099291C054D6A0011A85F /* InvaderC_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "InvaderC_01@2x.png"; path = "MemeSpaceAttack/Sprite Images/InvaderC_01@2x.png"; sourceTree = "<group>"; };
+		DA20992A1C054D6A0011A85F /* LaserSharkA_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaserSharkA_00.png; path = "MemeSpaceAttack/Sprite Images/LaserSharkA_00.png"; sourceTree = "<group>"; };
+		DA20992B1C054D6A0011A85F /* LaserSharkA_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaserSharkA_01.png; path = "MemeSpaceAttack/Sprite Images/LaserSharkA_01.png"; sourceTree = "<group>"; };
+		DA20992C1C054D6A0011A85F /* LaserSharkB_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaserSharkB_00.png; path = "MemeSpaceAttack/Sprite Images/LaserSharkB_00.png"; sourceTree = "<group>"; };
+		DA20992D1C054D6A0011A85F /* LaserSharkB_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaserSharkB_01.png; path = "MemeSpaceAttack/Sprite Images/LaserSharkB_01.png"; sourceTree = "<group>"; };
+		DA20992E1C054D6A0011A85F /* LaserSharkC_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaserSharkC_00.png; path = "MemeSpaceAttack/Sprite Images/LaserSharkC_00.png"; sourceTree = "<group>"; };
+		DA20992F1C054D6A0011A85F /* LaserSharkC_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaserSharkC_01.png; path = "MemeSpaceAttack/Sprite Images/LaserSharkC_01.png"; sourceTree = "<group>"; };
+		DA2099301C054D6A0011A85F /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ship.png; path = "MemeSpaceAttack/Sprite Images/Ship.png"; sourceTree = "<group>"; };
+		DA2099311C054D6A0011A85F /* Ship@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ship@2x.png"; path = "MemeSpaceAttack/Sprite Images/Ship@2x.png"; sourceTree = "<group>"; };
+		DA2099481C054DF80011A85F /* Sound Effects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sound Effects"; sourceTree = "<group>"; };
+		DA2099491C054DF80011A85F /* Sprite Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sprite Images"; sourceTree = "<group>"; };
+		DA2099521C055E6B0011A85F /* SpaceBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpaceBackground.png; sourceTree = "<group>"; };
+		DAC8DF281C0B94240075CFD0 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		DAF01C071C065C4E00291B94 /* BlueBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueBackGround.png; sourceTree = "<group>"; };
+		DAF01C091C068A2D00291B94 /* SpaceAttack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpaceAttack.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +147,8 @@
 		DA2098BD1C053E560011A85F = {
 			isa = PBXGroup;
 			children = (
+				DA2099461C054D9A0011A85F /* Images */,
+				DA2099471C054DBB0011A85F /* Sounds */,
 				DA2098C81C053E560011A85F /* MemeSpaceAttack */,
 				DA2098E01C053E570011A85F /* MemeSpaceAttackTests */,
 				DA2098EB1C053E570011A85F /* MemeSpaceAttackUITests */,
@@ -102,12 +170,17 @@
 			isa = PBXGroup;
 			children = (
 				DA2098C91C053E560011A85F /* AppDelegate.swift */,
-				DA2098CB1C053E560011A85F /* GameScene.sks */,
 				DA2098CD1C053E560011A85F /* GameScene.swift */,
+				DA20990A1C054A5D0011A85F /* GameScene.sks */,
+				DA2099021C0545560011A85F /* GameOverScene.swift */,
+				DA2099081C054A140011A85F /* GameOverScene.sks */,
 				DA2098CF1C053E560011A85F /* GameViewController.swift */,
+				DA2099061C0547A30011A85F /* MenuViewController.swift */,
 				DA2098D11C053E560011A85F /* Game.xcassets */,
 				DA2098D31C053E560011A85F /* Main.storyboard */,
 				DA2098D61C053E560011A85F /* Assets.xcassets */,
+				DA2099481C054DF80011A85F /* Sound Effects */,
+				DA2099491C054DF80011A85F /* Sprite Images */,
 				DA2098D81C053E560011A85F /* Info.plist */,
 			);
 			path = MemeSpaceAttack;
@@ -129,6 +202,48 @@
 				DA2098EE1C053E570011A85F /* Info.plist */,
 			);
 			path = MemeSpaceAttackUITests;
+			sourceTree = "<group>";
+		};
+		DA2099461C054D9A0011A85F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DA20991E1C054D6A0011A85F /* InvaderA_00.png */,
+				DA20991F1C054D6A0011A85F /* InvaderA_00@2x.png */,
+				DA2099201C054D6A0011A85F /* InvaderA_01.png */,
+				DA2099211C054D6A0011A85F /* InvaderA_01@2x.png */,
+				DA2099221C054D6A0011A85F /* InvaderB_00.png */,
+				DA2099231C054D6A0011A85F /* InvaderB_00@2x.png */,
+				DA2099241C054D6A0011A85F /* InvaderB_01.png */,
+				DA2099251C054D6A0011A85F /* InvaderB_01@2x.png */,
+				DA2099261C054D6A0011A85F /* InvaderC_00.png */,
+				DA2099271C054D6A0011A85F /* InvaderC_00@2x.png */,
+				DA2099281C054D6A0011A85F /* InvaderC_01.png */,
+				DA2099291C054D6A0011A85F /* InvaderC_01@2x.png */,
+				DA20992A1C054D6A0011A85F /* LaserSharkA_00.png */,
+				DA20992B1C054D6A0011A85F /* LaserSharkA_01.png */,
+				DA20992C1C054D6A0011A85F /* LaserSharkB_00.png */,
+				DA20992D1C054D6A0011A85F /* LaserSharkB_01.png */,
+				DA20992E1C054D6A0011A85F /* LaserSharkC_00.png */,
+				DA20992F1C054D6A0011A85F /* LaserSharkC_01.png */,
+				DA2099301C054D6A0011A85F /* Ship.png */,
+				DA2099311C054D6A0011A85F /* Ship@2x.png */,
+				DA2099521C055E6B0011A85F /* SpaceBackground.png */,
+				DAF01C091C068A2D00291B94 /* SpaceAttack.jpg */,
+				DAF01C071C065C4E00291B94 /* BlueBackGround.png */,
+				DAC8DF281C0B94240075CFD0 /* star.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DA2099471C054DBB0011A85F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DA2099161C054D380011A85F /* InvaderBullet.wav */,
+				DA2099171C054D380011A85F /* InvaderHit.wav */,
+				DA2099181C054D380011A85F /* ShipBullet.wav */,
+				DA2099191C054D380011A85F /* ShipHit.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,9 +351,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2098D51C053E560011A85F /* Main.storyboard in Resources */,
-				DA2098CC1C053E560011A85F /* GameScene.sks in Resources */,
+				DA20994B1C054DF80011A85F /* Sprite Images in Resources */,
+				DAF01C081C065C4E00291B94 /* BlueBackGround.png in Resources */,
 				DA2098D71C053E560011A85F /* Assets.xcassets in Resources */,
+				DA2099091C054A140011A85F /* GameOverScene.sks in Resources */,
+				DA20990B1C054A5D0011A85F /* GameScene.sks in Resources */,
 				DA2098D21C053E560011A85F /* Game.xcassets in Resources */,
+				DA20991A1C054D380011A85F /* InvaderBullet.wav in Resources */,
+				DA20991B1C054D380011A85F /* InvaderHit.wav in Resources */,
+				DA20991C1C054D380011A85F /* ShipBullet.wav in Resources */,
+				DA20991D1C054D380011A85F /* ShipHit.wav in Resources */,
+				DAC8DF291C0B94240075CFD0 /* star.png in Resources */,
+				DA2099321C054D6A0011A85F /* InvaderA_00.png in Resources */,
+				DA2099331C054D6A0011A85F /* InvaderA_00@2x.png in Resources */,
+				DA2099341C054D6A0011A85F /* InvaderA_01.png in Resources */,
+				DA2099351C054D6A0011A85F /* InvaderA_01@2x.png in Resources */,
+				DA2099361C054D6A0011A85F /* InvaderB_00.png in Resources */,
+				DA20994A1C054DF80011A85F /* Sound Effects in Resources */,
+				DA2099371C054D6A0011A85F /* InvaderB_00@2x.png in Resources */,
+				DA2099381C054D6A0011A85F /* InvaderB_01.png in Resources */,
+				DA2099531C055E6B0011A85F /* SpaceBackground.png in Resources */,
+				DA2099391C054D6A0011A85F /* InvaderB_01@2x.png in Resources */,
+				DA20993A1C054D6A0011A85F /* InvaderC_00.png in Resources */,
+				DAF01C0A1C068A2D00291B94 /* SpaceAttack.jpg in Resources */,
+				DA20993B1C054D6A0011A85F /* InvaderC_00@2x.png in Resources */,
+				DA20993C1C054D6A0011A85F /* InvaderC_01.png in Resources */,
+				DA20993D1C054D6A0011A85F /* InvaderC_01@2x.png in Resources */,
+				DA20993E1C054D6A0011A85F /* LaserSharkA_00.png in Resources */,
+				DA20993F1C054D6A0011A85F /* LaserSharkA_01.png in Resources */,
+				DA2099401C054D6A0011A85F /* LaserSharkB_00.png in Resources */,
+				DA2099411C054D6A0011A85F /* LaserSharkB_01.png in Resources */,
+				DA2099421C054D6A0011A85F /* LaserSharkC_00.png in Resources */,
+				DA2099431C054D6A0011A85F /* LaserSharkC_01.png in Resources */,
+				DA2099441C054D6A0011A85F /* Ship.png in Resources */,
+				DA2099451C054D6A0011A85F /* Ship@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +410,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2098CE1C053E560011A85F /* GameScene.swift in Sources */,
+				DA2099071C0547A30011A85F /* MenuViewController.swift in Sources */,
 				DA2098D01C053E560011A85F /* GameViewController.swift in Sources */,
+				DA2099031C0545560011A85F /* GameOverScene.swift in Sources */,
 				DA2098CA1C053E560011A85F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = MemeSpaceAttack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MWaller.MemeSpaceAttack;
@@ -410,6 +559,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = MemeSpaceAttack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MWaller.MemeSpaceAttack;
@@ -486,6 +636,7 @@
 				DA2098F31C053E570011A85F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA2098F41C053E570011A85F /* Build configuration list for PBXNativeTarget "MemeSpaceAttackTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +645,7 @@
 				DA2098F61C053E570011A85F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA2098F71C053E570011A85F /* Build configuration list for PBXNativeTarget "MemeSpaceAttackUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +654,7 @@
 				DA2098F91C053E570011A85F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
